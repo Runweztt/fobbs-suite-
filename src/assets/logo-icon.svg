@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none">
+  <defs>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1de4c9"/>
+      <stop offset="100%" stop-color="#04c8b0"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main R letter -->
+  <path d="M10 8 L10 42 L18 42 L18 30 L26 30 L34 42 L44 42 L32 28 C38 26 42 20 42 14 C42 8 35 4 25 4 L10 8 Z M18 12 L24 10 C30 10 34 12 34 16 C34 20 30 24 24 24 L18 24 L18 12 Z" 
+        fill="url(#riverGrad)"/>
+  
+  <!-- Wave accent -->
+  <path d="M6 46 Q14 42, 22 46 T38 46 T50 46" 
+        stroke="url(#goldGrad)" 
+        stroke-width="2.5" 
+        stroke-linecap="round"
+        fill="none"/>
+</svg>

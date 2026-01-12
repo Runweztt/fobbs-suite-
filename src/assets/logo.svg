@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <defs>
+    <!-- Gradient for the water/river element -->
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1de4c9"/>
+      <stop offset="100%" stop-color="#04c8b0"/>
+    </linearGradient>
+    <!-- Gold accent gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Stylized "R" with flowing river wave -->
+  <g>
+    <!-- Main R letter structure -->
+    <path d="M8 10 L8 50 L14 50 L14 35 L22 35 L30 50 L38 50 L28 33 C33 31 36 26 36 20 C36 13 30 10 22 10 L8 10 Z M14 16 L21 16 C26 16 30 17 30 21 C30 25 26 28 21 28 L14 28 L14 16 Z" 
+          fill="url(#riverGradient)"/>
+    
+    <!-- Flowing water wave accent -->
+    <path d="M4 54 Q12 50, 20 54 T36 54 T52 54" 
+          stroke="url(#goldGradient)" 
+          stroke-width="2.5" 
+          stroke-linecap="round"
+          fill="none"/>
+  </g>
+  
+  <!-- Text: RIVERSIDE -->
+  <text x="52" y="28" 
+        font-family="'Playfair Display', Georgia, serif" 
+        font-size="18" 
+        font-weight="600" 
+        fill="#0f172a">
+    RIVERSIDE
+  </text>
+  
+  <!-- Text: SUITES -->
+  <text x="52" y="46" 
+        font-family="'Inter', system-ui, sans-serif" 
+        font-size="12" 
+        font-weight="400" 
+        letter-spacing="0.2em"
+        fill="#64748b">
+    SUITES
+  </text>
+  
+  <!-- Accent line -->
+  <rect x="52" y="50" width="80" height="1.5" rx="0.75" fill="url(#goldGradient)" opacity="0.6"/>
+</svg>

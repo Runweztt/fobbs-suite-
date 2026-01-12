@@ -1,0 +1,11 @@
+// Components barrel export
+export { default as Navbar } from './Navbar'
+export { default as Footer } from './Footer'
+export { default as Hero } from './Hero'
+export { default as BookingWidget } from './BookingWidget'
+export { default as FeaturedRooms } from './FeaturedRooms'
+export { default as Amenities } from './Amenities'
+export { default as Testimonials } from './Testimonials'
+export { default as Location } from './Location'
+export { default as CTASection } from './CTASection'
+export { default as RoomCard } from './RoomCard'

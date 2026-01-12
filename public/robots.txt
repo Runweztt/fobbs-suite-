@@ -1,0 +1,15 @@
+# Riverside Suites Robots.txt
+# https://riversidesuites.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://riversidesuites.com/sitemap.xml
+
+# Disallow admin/api paths (if added later)
+Disallow: /api/
+Disallow: /admin/
+
+# Crawl delay for politeness
+Crawl-delay: 1
