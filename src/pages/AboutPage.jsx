@@ -31,19 +31,9 @@ const values = [
 
 const team = [
   {
-    name: 'Sarah Nakamura',
-    role: 'General Manager',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80',
-  },
-  {
-    name: 'James Okonkwo',
-    role: 'Executive Chef',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
-  },
-  {
-    name: 'Elena Rodriguez',
-    role: 'Head of Guest Relations',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
+    name: 'Mr Francis',
+    role: 'Owner',
+    image: null,
   },
 ]
 
@@ -107,14 +97,14 @@ export default function AboutPage() {
                   of Nigerian warmth and comfort.
                 </p>
                 <p>
-                  Nestled in the prestigious GRA Phase I, Asaba, our property rises as a beacon of excellence—
+                  Nestled in the prestigious GRA Phase I, Asaba, our property rises as a beacon of excellence
                   a testament to what's possible when you blend international standards with local heart. 
                   Every curve, every light, every detail was carefully considered to provide our guests 
                   with comfort and luxury they deserve.
                 </p>
                 <p>
                   Today, FOBBS Apartment and Suite stands as more than a hotel. It's a destination, a landmark, 
-                  and a promise—that extraordinary experiences are available right here in Asaba.
+                  and a promise that extraordinary experiences are available right here in Asaba.
                 </p>
               </div>
             </motion.div>
@@ -349,7 +339,7 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="flex justify-center">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -357,14 +347,20 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="text-center"
+                className="text-center max-w-xs"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-lg">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-lg bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center">
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-16 h-16 text-white">
+                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                    </svg>
+                  )}
                 </div>
                 <h3 className="font-display font-semibold text-lg">
                   {member.name}
