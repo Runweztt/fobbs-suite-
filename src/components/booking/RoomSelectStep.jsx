@@ -65,9 +65,9 @@ export default function RoomSelectStep() {
                 </motion.div>
               )}
               
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 {/* Image */}
-                <div className="w-24 h-24 md:w-32 md:h-24 rounded-lg overflow-hidden flex-shrink-0">
+                <div className="w-full sm:w-32 h-40 sm:h-24 rounded-lg overflow-hidden flex-shrink-0">
                   <img
                     src={room.images[0]}
                     alt={room.name}
@@ -78,14 +78,14 @@ export default function RoomSelectStep() {
                 {/* Content */}
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between gap-2">
-                    <div>
+                    <div className="flex-1">
                       <span className="text-xs text-primary-500 font-medium uppercase">
                         {room.category}
                       </span>
-                      <h3 className="font-semibold">{room.name}</h3>
+                      <h3 className="font-semibold text-base sm:text-lg">{room.name}</h3>
                     </div>
                     <div className="text-right flex-shrink-0">
-                      <div className="font-bold text-lg">
+                      <div className="font-bold text-base sm:text-lg">
                         {formatCurrency(totalPrice)}
                       </div>
                       <div className="text-xs text-text-muted">

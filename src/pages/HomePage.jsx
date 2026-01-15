@@ -1,6 +1,6 @@
 /**
  * Home Page
- * Complete landing page for Riverside Suites
+ * Complete landing page for FOBBS Apartment and Suite
  */
 
 import MainLayout from '../layouts/MainLayout'

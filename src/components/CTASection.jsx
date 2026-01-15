@@ -47,7 +47,7 @@ export default function CTASection() {
             <span className="text-accent-300">Extraordinary?</span>
           </h2>
           <p className="text-lg text-primary-100 mb-10 max-w-xl mx-auto">
-            Book your stay today and discover why Riverside Suites is Najjerra's 
+            Book your stay today and discover why FOBBS Apartment and Suite is Asaba's 
             most sought-after destination. Limited availability – reserve now.
           </p>
 

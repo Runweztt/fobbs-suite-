@@ -5,7 +5,7 @@
  */
 
 import { motion } from 'framer-motion'
-import hotelBuilding from '../assets/hotel-building.jpg'
+import hotelBuilding from '../assets/hero-building.png'
 
 const textVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -44,7 +44,7 @@ export default function Hero() {
         >
           <motion.img
             src={hotelBuilding}
-            alt="Riverside Suites Hotel Building"
+            alt="FOBBS Apartment and Suite Building"
             className="w-full h-full object-cover object-center"
             animate={{ 
               scale: [1, 1.1, 1.05, 1.1, 1],
@@ -205,7 +205,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
             </span>
-            <span className="text-primary-300 text-sm font-medium">Welcome to Najjerra's Finest</span>
+            <span className="text-primary-300 text-sm font-medium">Welcome to Asaba's Finest</span>
           </motion.div>
 
           {/* Heading */}
@@ -238,8 +238,8 @@ export default function Hero() {
             animate="visible"
             className="text-base md:text-xl text-white/90 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-md"
           >
-            Experience the future of hospitality at Riverside Suites. 
-            Premium accommodations and world-class amenities await.
+            Experience premium hospitality at FOBBS Apartment and Suite. 
+            Modern accommodations and world-class amenities await.
           </motion.p>
 
           {/* CTAs */}

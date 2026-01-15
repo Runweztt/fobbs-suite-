@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================
-   RIVERSIDE SUITES DESIGN SYSTEM
+   FOBBS APARTMENT AND SUITE DESIGN SYSTEM
    Futuristic Hotel Brand | Najjerra
    ============================================ */
 
@@ -16,18 +16,18 @@
      Futuristic luxury with warm accents
      ---------------------------------------- */
 
-  /* Primary - Oceanic Teal (Serenity & Modern Luxury) */
-  --color-primary-50: #effefb;
-  --color-primary-100: #c7fff4;
-  --color-primary-200: #90ffea;
-  --color-primary-300: #51f7dd;
-  --color-primary-400: #1de4c9;
-  --color-primary-500: #04c8b0;
-  --color-primary-600: #00a191;
-  --color-primary-700: #058076;
-  --color-primary-800: #0a655f;
-  --color-primary-900: #0d534e;
-  --color-primary-950: #003332;
+  /* Primary - Brand Gold (FOBBS Brand Color) */
+  --color-primary-50: #fffbeb;
+  --color-primary-100: #fef3c7;
+  --color-primary-200: #fde68a;
+  --color-primary-300: #fcd34d;
+  --color-primary-400: #fbbf24;
+  --color-primary-500: #D4A84B;
+  --color-primary-600: #C9984A;
+  --color-primary-700: #B8924A;
+  --color-primary-800: #92400e;
+  --color-primary-900: #78350f;
+  --color-primary-950: #451a03;
 
   /* Secondary - Deep Space Navy (Trust & Sophistication) */
   --color-secondary-50: #f4f6fb;
@@ -221,9 +221,9 @@
   --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 
   /* Glow Effects - Futuristic */
-  --glow-primary: 0 0 20px rgb(4 200 176 / 0.3);
+  --glow-primary: 0 0 20px rgb(212 168 75 / 0.3);
   --glow-accent: 0 0 20px rgb(251 191 36 / 0.3);
-  --glow-soft: 0 0 40px rgb(4 200 176 / 0.15);
+  --glow-soft: 0 0 40px rgb(212 168 75 / 0.15);
 
   /* ----------------------------------------
      MOTION PRINCIPLES
@@ -581,7 +581,7 @@
   .input:focus {
     outline: none;
     border-color: var(--color-primary-500);
-    box-shadow: 0 0 0 3px rgb(4 200 176 / 0.1);
+    box-shadow: 0 0 0 3px rgb(212 168 75 / 0.15);
   }
 
   .input::placeholder {
@@ -601,7 +601,7 @@
   }
 
   .dark .badge {
-    background: rgba(4, 200, 176, 0.15);
+    background: rgba(212, 168, 75, 0.15);
     color: var(--color-primary-400);
   }
 }
@@ -731,7 +731,7 @@ img[loading="lazy"] {
 /* Improved focus ring for better visibility */
 .focus-ring:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px var(--color-primary-500), 0 0 0 5px rgba(4, 200, 176, 0.2);
+  box-shadow: 0 0 0 3px var(--color-primary-500), 0 0 0 5px rgba(212, 168, 75, 0.2);
 }
 
 /* Mobile tap highlight fix */

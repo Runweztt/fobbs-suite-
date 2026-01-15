@@ -43,7 +43,7 @@ const amenityCategories = [
     items: [
       {
         icon: DiningIcon,
-        name: 'The Riverside Restaurant',
+        name: 'The FOBBS Restaurant',
         description: 'Award-winning fine dining featuring local and international cuisine with river views.',
         hours: 'Breakfast: 6:30 AM - 10:30 AM | Dinner: 6:00 PM - 11:00 PM',
       },

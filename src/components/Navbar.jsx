@@ -60,11 +60,11 @@ export default function Navbar() {
           <a 
             href="#home" 
             className="flex items-center z-10"
-            aria-label="Riverside Suites - Home"
+            aria-label="FOBBS Apartment and Suite - Home"
           >
             <motion.img 
               src={logoSvg} 
-              alt="Riverside Suites" 
+              alt="FOBBS Apartment and Suite" 
               className={`h-8 md:h-10 w-auto transition-all duration-300 ${
                 !isScrolled ? 'brightness-0 invert' : ''
               }`}
@@ -115,7 +115,7 @@ export default function Navbar() {
                 }}
                 transition={{ duration: 0.2 }}
                 className={`block h-0.5 rounded-full origin-center transition-colors ${
-                  isOpen || isScrolled ? 'bg-text' : 'bg-white'
+                  isOpen ? 'bg-text' : isScrolled ? 'bg-primary-500' : 'bg-white'
                 }`}
               />
               <motion.span
@@ -125,7 +125,7 @@ export default function Navbar() {
                 }}
                 transition={{ duration: 0.1 }}
                 className={`block h-0.5 rounded-full ${
-                  isOpen || isScrolled ? 'bg-text' : 'bg-white'
+                  isOpen ? 'bg-text' : isScrolled ? 'bg-primary-500' : 'bg-white'
                 }`}
               />
               <motion.span
@@ -135,7 +135,7 @@ export default function Navbar() {
                 }}
                 transition={{ duration: 0.2 }}
                 className={`block h-0.5 rounded-full origin-center transition-colors ${
-                  isOpen || isScrolled ? 'bg-text' : 'bg-white'
+                  isOpen ? 'bg-text' : isScrolled ? 'bg-primary-500' : 'bg-white'
                 }`}
               />
             </div>
@@ -213,7 +213,7 @@ export default function Navbar() {
                   Book Now
                 </button>
                 <p className="mt-4 text-center text-sm text-text-muted">
-                  Najjerra's Premier Destination
+                  Asaba's Premier Destination
                 </p>
               </motion.div>
             </div>

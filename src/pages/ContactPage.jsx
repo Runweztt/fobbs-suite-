@@ -235,7 +235,7 @@ export default function ContactPage() {
                             name="phone"
                             value={form.phone}
                             onChange={handleChange}
-                            placeholder="+256 700 000 000"
+                            placeholder="+234 907 791 8042"
                             className="input"
                           />
                         </div>
@@ -330,8 +330,8 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Address</p>
                       <p className="text-text-secondary text-sm">
-                        Plot 42, Riverside Drive<br />
-                        Najjerra, Kampala, Uganda
+                        Michael Fidelis Nwaefulu Street<br />
+                        GRA Phase I, Asaba, Delta State, Nigeria
                       </p>
                     </div>
                   </div>
@@ -343,10 +343,10 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Phone</p>
                       <a 
-                        href="tel:+256700000000" 
+                        href="tel:+2349077918042" 
                         className="text-text-secondary text-sm hover:text-primary-500 transition-colors"
                       >
-                        +256 700 000 000
+                        +234 907 791 8042
                       </a>
                       <p className="text-text-muted text-xs mt-1">Available 24/7</p>
                     </div>
@@ -359,10 +359,10 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:info@riversidesuites.com" 
+                        href="mailto:fobbesapartmentsandsuites@gmail.com" 
                         className="text-text-secondary text-sm hover:text-primary-500 transition-colors"
                       >
-                        info@riversidesuites.com
+                        fobbesapartmentsandsuites@gmail.com
                       </a>
                       <p className="text-text-muted text-xs mt-1">Response within 24 hours</p>
                     </div>
@@ -453,7 +453,7 @@ export default function ContactPage() {
               Find Us Here
             </h2>
             <p className="text-text-secondary">
-              Located in the heart of Najjerra, Kampala
+              Located in GRA Phase I, Asaba, Delta State
             </p>
           </motion.div>
 
@@ -490,9 +490,9 @@ export default function ContactPage() {
 
             {/* Overlay card */}
             <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg max-w-xs">
-              <p className="font-semibold">Riverside Suites</p>
+              <p className="font-semibold">FOBBS Apartment and Suite</p>
               <p className="text-text-secondary text-sm">
-                Plot 42, Riverside Drive, Najjerra
+                Michael Fidelis Nwaefulu Street, GRA Phase I, Asaba
               </p>
               <a
                 href="https://maps.google.com"

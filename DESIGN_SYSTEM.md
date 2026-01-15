@@ -1,7 +1,7 @@
-# Riverside Suites Design System
+# FOBBS Apartment and Suite Design System
 
-**Brand:** Riverside Suites  
-**Location:** Najjerra  
+**Brand:** FOBBS Apartment and Suite  
+**Location:** Asaba, Delta State, Nigeria  
 **Style:** Futuristic Luxury Hotel
 
 ---
@@ -144,7 +144,7 @@ glow-accent: 0 0 20px rgb(251 191 36 / 0.3);
 | `logo-icon.svg` | Favicon, small displays |
 
 ### Minimum Clear Space
-- Padding equal to height of "R" icon on all sides
+- Padding equal to height of "F" icon on all sides
 - Never scale below 120px width for full logo
 - Never scale below 32px for icon
 

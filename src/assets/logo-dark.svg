@@ -1,41 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
   <defs>
-    <linearGradient id="riverGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#51f7dd"/>
-      <stop offset="100%" stop-color="#1de4c9"/>
-    </linearGradient>
     <linearGradient id="goldGradientDark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fcd34d"/>
-      <stop offset="100%" stop-color="#fbbf24"/>
+      <stop offset="0%" stop-color="#E8C547"/>
+      <stop offset="50%" stop-color="#D4A84B"/>
+      <stop offset="100%" stop-color="#B8924A"/>
     </linearGradient>
   </defs>
   
-  <g>
-    <path d="M8 10 L8 50 L14 50 L14 35 L22 35 L30 50 L38 50 L28 33 C33 31 36 26 36 20 C36 13 30 10 22 10 L8 10 Z M14 16 L21 16 C26 16 30 17 30 21 C30 25 26 28 21 28 L14 28 L14 16 Z" 
-          fill="url(#riverGradientDark)"/>
-    <path d="M4 54 Q12 50, 20 54 T36 54 T52 54" 
-          stroke="url(#goldGradientDark)" 
-          stroke-width="2.5" 
-          stroke-linecap="round"
-          fill="none"/>
-  </g>
+  <!-- FOBBS Icon - circular F -->
+  <circle cx="28" cy="30" r="24" fill="#0D0D0D" stroke="url(#goldGradientDark)" stroke-width="1.5"/>
+  <text x="28" y="38" font-family="Arial Black, Arial, sans-serif" font-size="24" font-weight="900" fill="url(#goldGradientDark)" text-anchor="middle">F</text>
   
-  <text x="52" y="28" 
-        font-family="'Playfair Display', Georgia, serif" 
-        font-size="18" 
-        font-weight="600" 
+  <!-- FOBBS Text -->
+  <text x="65" y="32" 
+        font-family="Arial Black, Arial, sans-serif" 
+        font-size="22" 
+        font-weight="900" 
         fill="#f8fafc">
-    RIVERSIDE
+    FOBBS
   </text>
   
-  <text x="52" y="46" 
+  <!-- APARTMENT AND SUITES Subtext -->
+  <text x="65" y="48" 
         font-family="'Inter', system-ui, sans-serif" 
-        font-size="12" 
+        font-size="9" 
         font-weight="400" 
-        letter-spacing="0.2em"
+        letter-spacing="0.15em"
         fill="#94a3b8">
-    SUITES
+    APARTMENT AND SUITES
   </text>
   
-  <rect x="52" y="50" width="80" height="1.5" rx="0.75" fill="url(#goldGradientDark)" opacity="0.7"/>
+  <!-- Gold underline accent -->
+  <rect x="65" y="52" width="120" height="1.5" rx="0.75" fill="url(#goldGradientDark)" opacity="0.7"/>
 </svg>

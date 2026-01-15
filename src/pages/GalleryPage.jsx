@@ -148,7 +148,7 @@ export default function GalleryPage() {
               Our <span className="text-gradient-primary">Gallery</span>
             </h1>
             <p className="text-secondary-300 text-lg">
-              Explore the elegance and beauty of Riverside Suites through our curated collection of photographs.
+              Explore the elegance and beauty of FOBBS Apartment and Suite through our curated collection of photographs.
             </p>
           </motion.div>
         </div>

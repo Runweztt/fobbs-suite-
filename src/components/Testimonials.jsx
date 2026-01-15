@@ -29,7 +29,7 @@ const testimonials = [
     role: 'Luxury Blogger',
     avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80',
     rating: 5,
-    quote: "I've stayed at hotels worldwide, and Riverside Suites stands out. The futuristic design paired with warm hospitality is a rare combination.",
+    quote: "I've stayed at hotels worldwide, and FOBBS Apartment and Suite stands out. The modern design paired with warm hospitality is a rare combination.",
   },
   {
     id: 4,

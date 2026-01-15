@@ -70,7 +70,7 @@ function BookingFlow({ onBack }) {
             </h1>
             <p className="text-secondary-300">
               {state.status === 'confirmed' 
-                ? 'Thank you for choosing Riverside Suites'
+                ? 'Thank you for choosing FOBBS Apartment and Suite'
                 : 'Complete your reservation in just a few steps'
               }
             </p>

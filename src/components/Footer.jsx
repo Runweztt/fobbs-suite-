@@ -70,13 +70,13 @@ export default function Footer() {
             >
               <img 
                 src={logoSvg} 
-                alt="Riverside Suites" 
+                alt="FOBBS Apartment and Suite" 
                 className="h-10 brightness-0 invert"
               />
             </motion.a>
             <p className="text-secondary-400 text-sm leading-relaxed mb-6">
-              Experience futuristic luxury at Najjerra's premier destination. 
-              Where modern design meets timeless hospitality.
+              Experience premium comfort at Asaba's finest destination. 
+              Modern apartments and suites with world-class amenities.
             </p>
             
             {/* Social Links - 44px touch targets */}
@@ -142,19 +142,19 @@ export default function Footer() {
               Contact
             </h4>
             <address className="not-italic space-y-3 text-sm text-secondary-400">
-              <p>Riverside Drive, Najjerra</p>
-              <p>Kampala, Uganda</p>
+              <p>Michael Fidelis Nwaefulu Street</p>
+              <p>GRA Phase I, Asaba, Delta State, Nigeria</p>
               <a 
-                href="tel:+256700000000" 
+                href="tel:+2349077918042" 
                 className="block hover:text-primary-400 transition-colors"
               >
-                +256 700 000 000
+                +234 907 791 8042
               </a>
               <a 
-                href="mailto:hello@riversidesuites.com" 
+                href="mailto:fobbesapartmentsandsuites@gmail.com" 
                 className="block hover:text-primary-400 transition-colors"
               >
-                hello@riversidesuites.com
+                fobbesapartmentsandsuites@gmail.com
               </a>
             </address>
           </div>
@@ -165,7 +165,7 @@ export default function Footer() {
       <div className="border-t border-secondary-800">
         <div className="container-app py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-secondary-500 text-sm text-center sm:text-left">
-            © {currentYear} Riverside Suites. All rights reserved.
+            © {currentYear} FOBBS Apartment and Suite. All rights reserved.
           </p>
           <div className="flex items-center gap-1 text-secondary-500 text-sm">
             <span>Crafted with</span>
@@ -176,7 +176,7 @@ export default function Footer() {
             >
               ♥
             </motion.span>
-            <span>in Najjerra</span>
+            <span>in Asaba</span>
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
-# Riverside Suites Robots.txt
-# https://riversidesuites.com
+# FOBBS Apartment and Suite Robots.txt
+# https://fobbsapartmentandsuite.com
 
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://riversidesuites.com/sitemap.xml
+Sitemap: https://fobbsapartmentandsuite.com/sitemap.xml
 
 # Disallow admin/api paths (if added later)
 Disallow: /api/

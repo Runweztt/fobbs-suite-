@@ -48,11 +48,11 @@ const team = [
 ]
 
 const milestones = [
-  { year: '2018', title: 'Vision Born', description: 'Concept developed for a futuristic luxury hotel in Najjerra.' },
-  { year: '2020', title: 'Construction Begins', description: 'Groundbreaking ceremony with international architects.' },
-  { year: '2022', title: 'Grand Opening', description: 'Riverside Suites opens doors to first guests.' },
-  { year: '2023', title: 'Award Recognition', description: 'Named Best New Luxury Hotel by Travel+Leisure.' },
-  { year: '2024', title: 'Expansion', description: 'Added new penthouse collection and rooftop amenities.' },
+  { year: '2019', title: 'Vision Born', description: 'Concept developed for a premium apartment hotel in Asaba.' },
+  { year: '2020', title: 'Construction Begins', description: 'Groundbreaking ceremony with top Nigerian architects.' },
+  { year: '2022', title: 'Grand Opening', description: 'FOBBS Apartment and Suite opens doors to first guests.' },
+  { year: '2023', title: 'Award Recognition', description: 'Named Best Boutique Hotel in Delta State.' },
+  { year: '2024', title: 'Expansion', description: 'Added new deluxe apartments and poolside amenities.' },
 ]
 
 export default function AboutPage() {
@@ -74,11 +74,11 @@ export default function AboutPage() {
               Our Story
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-6">
-              About <span className="text-gradient-primary">Riverside Suites</span>
+              About <span className="text-gradient-primary">FOBBS Apartment and Suite</span>
             </h1>
             <p className="text-secondary-300 text-lg leading-relaxed">
-              Where futuristic elegance meets the warmth of African hospitality. 
-              Discover the vision behind Najjerra's most iconic hotel.
+              Where modern elegance meets the warmth of Nigerian hospitality. 
+              Discover the vision behind Asaba's premier accommodation.
             </p>
           </motion.div>
         </div>
@@ -101,20 +101,20 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
                 <p>
-                  Riverside Suites was born from a dream to redefine luxury hospitality in East Africa. 
-                  Founded in 2018 by a collective of visionary architects, hoteliers, and local entrepreneurs, 
-                  our mission was clear: create a space where cutting-edge design harmonizes with the soul 
-                  of Ugandan warmth.
+                  FOBBS Apartment and Suite was born from a dream to redefine hospitality in Delta State. 
+                  Founded by a collective of visionary architects, hoteliers, and local entrepreneurs, 
+                  our mission was clear: create a space where modern design harmonizes with the soul 
+                  of Nigerian warmth and comfort.
                 </p>
                 <p>
-                  Nestled along the serene banks of Najjerra, our property rises as a beacon of innovation—
-                  a testament to what's possible when you blend international excellence with local heart. 
-                  Every curve, every light, every detail was carefully considered to transport our guests 
-                  into the future while keeping them grounded in comfort.
+                  Nestled in the prestigious GRA Phase I, Asaba, our property rises as a beacon of excellence—
+                  a testament to what's possible when you blend international standards with local heart. 
+                  Every curve, every light, every detail was carefully considered to provide our guests 
+                  with comfort and luxury they deserve.
                 </p>
                 <p>
-                  Today, Riverside Suites stands as more than a hotel. It's a destination, a landmark, 
-                  and a promise—that extraordinary experiences are not just for tomorrow, but for today.
+                  Today, FOBBS Apartment and Suite stands as more than a hotel. It's a destination, a landmark, 
+                  and a promise—that extraordinary experiences are available right here in Asaba.
                 </p>
               </div>
             </motion.div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
               <div className="relative rounded-2xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
-                  alt="Riverside Suites exterior"
+                  alt="FOBBS Apartment and Suite exterior"
                   className="w-full aspect-[4/3] object-cover"
                 />
               </div>
@@ -247,7 +247,7 @@ export default function AboutPage() {
                 <span className="text-gradient-gold">feeling we create.</span>"
               </h2>
               <p className="text-secondary-300 text-lg leading-relaxed max-w-2xl mx-auto">
-                At Riverside Suites, we believe that true luxury lies in the details—the smile at check-in, 
+                At FOBBS Apartment and Suite, we believe that true luxury lies in the details—the smile at check-in, 
                 the perfectly turned-down bed, the anticipation of your needs before you voice them. 
                 We don't just host guests; we craft unforgettable moments.
               </p>
@@ -270,13 +270,13 @@ export default function AboutPage() {
                 Prime Location
               </span>
               <h2 className="text-3xl md:text-4xl font-display mb-6">
-                The Heart of <span className="text-gradient-primary">Najjerra</span>
+                The Heart of <span className="text-gradient-primary">Asaba</span>
               </h2>
               <p className="text-text-secondary leading-relaxed mb-6">
-                Strategically positioned in the vibrant Najjerra district, Riverside Suites offers 
+                Strategically positioned in the prestigious GRA Phase I, FOBBS Apartment and Suite offers 
                 the perfect balance of accessibility and tranquility. With the city's business 
                 centers, cultural attractions, and entertainment hubs just minutes away, 
-                you're always connected—yet our riverside setting provides a peaceful retreat 
+                you're always connected—yet our serene setting provides a peaceful retreat 
                 from the urban buzz.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -285,16 +285,16 @@ export default function AboutPage() {
                   <p className="text-sm text-text-muted">to City Center</p>
                 </div>
                 <div className="p-4 bg-surface-dim rounded-xl">
-                  <p className="text-2xl font-bold text-primary-500">25 min</p>
-                  <p className="text-sm text-text-muted">to Entebbe Airport</p>
+                  <p className="text-2xl font-bold text-primary-500">20 min</p>
+                  <p className="text-sm text-text-muted">to Asaba Airport</p>
                 </div>
                 <div className="p-4 bg-surface-dim rounded-xl">
-                  <p className="text-2xl font-bold text-primary-500">5 min</p>
-                  <p className="text-sm text-text-muted">to Shopping District</p>
+                  <p className="text-2xl font-bold text-primary-500">8 min</p>
+                  <p className="text-sm text-text-muted">to Asaba Mall</p>
                 </div>
                 <div className="p-4 bg-surface-dim rounded-xl">
                   <p className="text-2xl font-bold text-primary-500">15 min</p>
-                  <p className="text-sm text-text-muted">to National Park</p>
+                  <p className="text-sm text-text-muted">to Niger River</p>
                 </div>
               </div>
             </motion.div>
@@ -390,7 +390,7 @@ export default function AboutPage() {
               Experience Our Vision
             </h2>
             <p className="text-primary-100 mb-8 max-w-xl mx-auto">
-              Join us at Riverside Suites and discover what the future of hospitality looks like.
+              Join us at FOBBS Apartment and Suite and discover what premium hospitality looks like.
             </p>
             <motion.a
               href="#booking"

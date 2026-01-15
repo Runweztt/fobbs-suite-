@@ -1,5 +1,5 @@
 /**
- * App Entry Point - Riverside Suites
+ * App Entry Point - FOBBS Apartment and Suite
  * Hash-based routing for all pages
  */
 

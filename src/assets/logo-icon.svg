@@ -1,23 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none">
   <defs>
-    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1de4c9"/>
-      <stop offset="100%" stop-color="#04c8b0"/>
-    </linearGradient>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C547"/>
+      <stop offset="50%" stop-color="#D4A84B"/>
+      <stop offset="100%" stop-color="#B8924A"/>
     </linearGradient>
   </defs>
   
-  <!-- Main R letter -->
-  <path d="M10 8 L10 42 L18 42 L18 30 L26 30 L34 42 L44 42 L32 28 C38 26 42 20 42 14 C42 8 35 4 25 4 L10 8 Z M18 12 L24 10 C30 10 34 12 34 16 C34 20 30 24 24 24 L18 24 L18 12 Z" 
-        fill="url(#riverGrad)"/>
+  <!-- Black circle background -->
+  <circle cx="25" cy="25" r="24" fill="#0D0D0D"/>
   
-  <!-- Wave accent -->
-  <path d="M6 46 Q14 42, 22 46 T38 46 T50 46" 
-        stroke="url(#goldGrad)" 
-        stroke-width="2.5" 
-        stroke-linecap="round"
-        fill="none"/>
+  <!-- Gold F letter -->
+  <text x="25" y="33" font-family="Arial Black, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#goldGrad)" text-anchor="middle">F</text>
+  
+  <!-- Gold ring accent -->
+  <circle cx="25" cy="25" r="23" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
 </svg>

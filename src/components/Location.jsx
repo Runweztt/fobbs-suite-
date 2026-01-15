@@ -6,10 +6,10 @@
 import { motion } from 'framer-motion'
 
 const highlights = [
-  { icon: '🏙️', label: 'City Center', distance: '10 min' },
-  { icon: '✈️', label: 'Airport', distance: '25 min' },
-  { icon: '🛍️', label: 'Shopping Mall', distance: '5 min' },
-  { icon: '🌳', label: 'National Park', distance: '15 min' },
+  { icon: '🏢', label: 'City Center', distance: '10 min' },
+  { icon: '✈️', label: 'Asaba Airport', distance: '20 min' },
+  { icon: '🛍️', label: 'Asaba Mall', distance: '8 min' },
+  { icon: '🏖️', label: 'Niger River', distance: '15 min' },
 ]
 
 export default function Location() {
@@ -28,10 +28,10 @@ export default function Location() {
               Our Location
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display mb-6">
-              Perfectly <span className="text-gradient-primary">Located</span> in Najjerra
+              Perfectly <span className="text-gradient-primary">Located</span> in Asaba
             </h2>
             <p className="text-text-secondary text-lg mb-8 leading-relaxed">
-              Nestled in the heart of Najjerra, Riverside Suites offers the perfect blend of 
+              Nestled in the prestigious GRA Phase I, FOBBS Apartment and Suite offers the perfect blend of 
               urban convenience and serene retreat. Minutes from major attractions yet 
               worlds away from the ordinary.
             </p>
@@ -62,10 +62,10 @@ export default function Location() {
                 <LocationIcon className="w-5 h-5 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-secondary-900">Riverside Suites</p>
+                <p className="font-semibold text-secondary-900">FOBBS Apartment and Suite</p>
                 <p className="text-text-secondary text-sm">
-                  Plot 42, Riverside Drive<br />
-                  Najjerra, Kampala, Uganda
+                  Michael Fidelis Nwaefulu Street<br />
+                  GRA Phase I, Asaba, Delta State, Nigeria
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.02 }}
@@ -119,7 +119,7 @@ export default function Location() {
                     {/* Pulse */}
                     <div className="absolute inset-0 w-20 h-20 -m-5 bg-primary-500/20 rounded-full animate-ping" />
                     <div className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center shadow-lg relative z-10">
-                      <span className="text-white font-bold text-lg">R</span>
+                      <span className="text-white font-bold text-lg">F</span>
                     </div>
                     {/* Pin */}
                     <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-t-[12px] border-t-primary-500" />
@@ -134,8 +134,8 @@ export default function Location() {
 
               {/* Map overlay with hotel info */}
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-secondary-900/90 to-transparent p-6">
-                <p className="text-white font-display text-lg">Riverside Suites</p>
-                <p className="text-secondary-300 text-sm">Najjerra, Kampala</p>
+                <p className="text-white font-display text-lg">FOBBS Apartment and Suite</p>
+                <p className="text-secondary-300 text-sm">GRA Phase I, Asaba</p>
               </div>
             </div>
 
