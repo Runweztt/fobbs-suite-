@@ -3,6 +3,12 @@
  * Complete room catalog with all details
  */
 
+import roomRedSide from '../assets/rooms/room-red-side.jpg'
+import roomRedHeadboard from '../assets/rooms/room-red-headboard.jpg'
+import roomOrangeHeadboard from '../assets/rooms/room-orange-headboard.jpg'
+import roomBlueRunner from '../assets/rooms/room-blue-runner.jpg'
+import roomRedCurtain from '../assets/rooms/room-red-curtain.jpg'
+
 export const roomCategories = [
     { id: 'all', label: 'All Rooms' },
     { id: 'standard', label: 'Standard' },
@@ -43,9 +49,8 @@ export const rooms = [
         beds: '2 Single Beds',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'coffee'],
         images: [
-            'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
-            'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80',
-            'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80',
+            roomBlueRunner,
+            roomRedSide,
         ],
         featured: false,
         available: true,
@@ -64,9 +69,8 @@ export const rooms = [
         beds: '1 King Bed',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee'],
         images: [
-            'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80',
-            'https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80',
-            'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=80',
+            roomOrangeHeadboard,
+            roomRedCurtain,
         ],
         featured: false,
         available: true,
@@ -85,10 +89,9 @@ export const rooms = [
         beds: '1 King Bed',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee', 'minibar', 'balcony', 'view', 'bathtub'],
         images: [
-            'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80',
-            'https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80',
-            'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80',
-            'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+            roomRedSide,
+            roomRedHeadboard,
+            roomBlueRunner,
         ],
         featured: true,
         available: true,
@@ -107,9 +110,9 @@ export const rooms = [
         beds: '1 King Bed + Sofa Bed',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee', 'minibar', 'view', 'bathtub'],
         images: [
-            'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80',
-            'https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80',
-            'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80',
+            roomRedHeadboard,
+            roomOrangeHeadboard,
+            roomRedSide,
         ],
         featured: false,
         available: true,
@@ -128,10 +131,9 @@ export const rooms = [
         beds: '1 King Bed + Sofa Bed',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee', 'minibar', 'balcony', 'view', 'bathtub', 'living'],
         images: [
-            'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80',
-            'https://images.unsplash.com/photo-1598928506311-c55ez361a30e?w=800&q=80',
-            'https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80',
-            'https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=800&q=80',
+            roomRedCurtain,
+            roomBlueRunner,
+            roomRedHeadboard,
         ],
         featured: true,
         available: true,
@@ -150,9 +152,9 @@ export const rooms = [
         beds: '1 King + 2 Singles',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'coffee', 'minibar', 'view', 'bathtub', 'living', 'kitchen'],
         images: [
-            'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80',
-            'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&q=80',
-            'https://images.unsplash.com/photo-1560448075-bb485b067938?w=800&q=80',
+            roomBlueRunner,
+            roomOrangeHeadboard,
+            roomRedCurtain,
         ],
         featured: false,
         available: true,
@@ -171,11 +173,10 @@ export const rooms = [
         beds: '1 King + 1 Queen',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee', 'minibar', 'balcony', 'view', 'bathtub', 'jacuzzi', 'butler', 'living', 'kitchen'],
         images: [
-            'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80',
-            'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80',
-            'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80',
-            'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
-            'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+            roomRedSide,
+            roomRedHeadboard,
+            roomOrangeHeadboard,
+            roomBlueRunner,
         ],
         featured: true,
         available: true,
@@ -194,10 +195,11 @@ export const rooms = [
         beds: '2 King + 2 Queen',
         amenities: ['wifi', 'tv', 'ac', 'safe', 'desk', 'coffee', 'minibar', 'balcony', 'view', 'bathtub', 'jacuzzi', 'butler', 'living', 'kitchen'],
         images: [
-            'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-            'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-            'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80',
-            'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80',
+            roomRedCurtain,
+            roomOrangeHeadboard,
+            roomRedSide,
+            roomRedHeadboard,
+            roomBlueRunner,
         ],
         featured: true,
         available: false,

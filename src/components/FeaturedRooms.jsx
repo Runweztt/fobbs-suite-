@@ -4,6 +4,9 @@
  */
 
 import { motion } from 'framer-motion'
+import roomRedSide from '../assets/rooms/room-red-side.jpg'
+import roomRedHeadboard from '../assets/rooms/room-red-headboard.jpg'
+import roomOrangeHeadboard from '../assets/rooms/room-orange-headboard.jpg'
 
 const rooms = [
   {
@@ -14,7 +17,7 @@ const rooms = [
     size: '45m²',
     guests: 2,
     features: ['River View', 'King Bed', 'Smart TV', 'Mini Bar'],
-    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
+    image: roomRedSide,
   },
   {
     id: 2,
@@ -24,7 +27,7 @@ const rooms = [
     size: '35m²',
     guests: 2,
     features: ['City View', 'Work Desk', 'Queen Bed', 'Coffee Machine'],
-    image: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80',
+    image: roomRedHeadboard,
   },
   {
     id: 3,
@@ -34,7 +37,7 @@ const rooms = [
     size: '120m²',
     guests: 4,
     features: ['Private Terrace', 'Butler Service', 'Jacuzzi', 'Living Room'],
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80',
+    image: roomOrangeHeadboard,
   },
 ]
 

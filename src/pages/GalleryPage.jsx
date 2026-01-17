@@ -6,90 +6,98 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import MainLayout from '../layouts/MainLayout'
+import poolExterior from '../assets/pool-exterior.png'
+import africanArt from '../assets/african-art.jpg'
+import hotelExterior from '../assets/hotel-exterior.png'
+import roomRedSide from '../assets/rooms/room-red-side.jpg'
+import roomRedHeadboard from '../assets/rooms/room-red-headboard.jpg'
+import roomOrangeHeadboard from '../assets/rooms/room-orange-headboard.jpg'
+import roomBlueRunner from '../assets/rooms/room-blue-runner.jpg'
+import roomRedCurtain from '../assets/rooms/room-red-curtain.jpg'
 
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80',
-    alt: 'Hotel exterior at sunset',
+    src: poolExterior,
+    alt: 'FOBBS Hotel exterior with swimming pool',
     category: 'exterior',
-    span: 'tall',
+    span: 'wide',
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
-    alt: 'Luxury suite bedroom',
+    src: roomRedSide,
+    alt: 'Deluxe suite with warm decor',
     category: 'rooms',
     span: 'normal',
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80',
-    alt: 'Presidential suite living area',
+    src: roomRedHeadboard,
+    alt: 'Executive room with LED ceiling',
     category: 'rooms',
-    span: 'wide',
+    span: 'tall',
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80',
+    src: poolExterior,
     alt: 'Infinity pool view',
     category: 'amenities',
     span: 'normal',
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-    alt: 'Penthouse terrace',
+    src: roomOrangeHeadboard,
+    alt: 'Premium suite with orange headboard',
     category: 'rooms',
     span: 'tall',
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80',
-    alt: 'Spa treatment room',
-    category: 'amenities',
-    span: 'normal',
-  },
-  {
-    id: 7,
-    src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
-    alt: 'Fine dining restaurant',
-    category: 'dining',
-    span: 'wide',
-  },
-  {
-    id: 8,
-    src: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80',
-    alt: 'Executive room',
+    src: roomBlueRunner,
+    alt: 'Deluxe room with blue accents',
     category: 'rooms',
     span: 'normal',
   },
   {
-    id: 9,
-    src: 'https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80',
-    alt: 'Hotel lobby',
-    category: 'exterior',
+    id: 7,
+    src: roomRedCurtain,
+    alt: 'Standard room with modern design',
+    category: 'rooms',
+    span: 'wide',
+  },
+  {
+    id: 8,
+    src: africanArt,
+    alt: 'African art wall sculpture in dining area',
+    category: 'dining',
     span: 'normal',
   },
   {
+    id: 9,
+    src: hotelExterior,
+    alt: 'Hotel building street view',
+    category: 'exterior',
+    span: 'tall',
+  },
+  {
     id: 10,
-    src: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
-    alt: 'Bathroom with skylight',
+    src: roomOrangeHeadboard,
+    alt: 'Suite with premium furnishings',
     category: 'rooms',
     span: 'tall',
   },
   {
     id: 11,
-    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80',
-    alt: 'Bar and lounge',
-    category: 'dining',
+    src: roomBlueRunner,
+    alt: 'Room with colorful art piece',
+    category: 'rooms',
     span: 'normal',
   },
   {
     id: 12,
-    src: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80',
-    alt: 'River view from balcony',
-    category: 'exterior',
+    src: roomRedHeadboard,
+    alt: 'Modern room with ambient lighting',
+    category: 'rooms',
     span: 'wide',
   },
 ]
